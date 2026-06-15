@@ -5,13 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>BEPLS</title>
     <meta name="robots" content="noindex" />
+    <link
+      rel="preload"
+      href="../assets/fonts/lt-amber-light.otf"
+      as="font"
+      type="font/otf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="../assets/fonts/lt-amber-regular.otf"
+      as="font"
+      type="font/otf"
+      crossorigin
+    />
     <style>
       @font-face {
         font-family: "LT Amber";
         src: url("../assets/fonts/lt-amber-light.otf") format("opentype");
         font-weight: 300;
         font-style: normal;
-        font-display: swap;
+        font-display: block;
       }
 
       @font-face {
@@ -19,7 +33,7 @@
         src: url("../assets/fonts/lt-amber-regular.otf") format("opentype");
         font-weight: 400;
         font-style: normal;
-        font-display: swap;
+        font-display: block;
       }
 
       * {

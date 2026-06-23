@@ -65,38 +65,28 @@
         text-align: center;
       }
 
-      h1 {
-        margin: 0;
-        color: #001014;
-        font-size: clamp(44px, 7.4vw, 84px);
-        font-weight: 300;
-        line-height: 0.96;
-        letter-spacing: 0;
-        text-transform: uppercase;
+      .loader {
+        display: block;
+        width: min(68vw, 320px);
+        max-height: 28svh;
+        object-fit: contain;
       }
 
-      p {
-        margin: clamp(24px, 4.4vw, 48px) 0 0;
-        max-width: 660px;
+      .caption {
+        margin: clamp(18px, 3vw, 32px) 0 0;
         color: #001014;
-        font-size: clamp(20px, 3.2vw, 36px);
+        font-size: clamp(18px, 2.4vw, 28px);
         font-weight: 300;
-        line-height: 1.12;
+        line-height: 1.1;
         letter-spacing: 0;
         text-transform: uppercase;
-      }
-
-      .release-note {
-        margin-top: clamp(16px, 2.4vw, 28px);
-        font-size: clamp(16px, 2.2vw, 24px);
       }
     </style>
   </head>
   <body>
     <main>
-      <h1>Страница<br />в разработке&nbsp;:(</h1>
-      <p>Извините, мы пока готовим этот материал.</p>
-      <p class="release-note">Скоро. Июль 2026.</p>
+      <img class="loader" src="../assets/bepls-loading.gif" alt="Загрузка BEPLS" />
+      <p class="caption">Скоро. Июль 2026.</p>
     </main>
   </body>
 </html>
